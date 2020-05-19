@@ -73,9 +73,9 @@ import App from '@/App.vue';
 // or import Vue from 'vue';
 import { wrapper } from './VueToMn.js';
 
-const ReadyToUseWraper = wrapper(App);
+const ReadyToUseWrapper = wrapper(App);
 
-export { ReadyToUseWraper };
+export { ReadyToUseWrapper };
 ```
 
 Wrapping:
@@ -85,7 +85,7 @@ Wrapping:
 import { ReadyToUseWraper } from './vue-to-mn.js';
 import YourAwesomeVueComponent from './your-awesome-component.vue';
 
-export YourAwesomeVueComponent = ReadyToUseWraper(YourAwesomeVueComponent);
+export default YourAwesomeVueComponent = ReadyToUseWrapper(YourAwesomeVueComponent);
 ```
 
 And after it, You can use `wrapped-your-awesome-component.js` as ordinary Marionette.LayoutView component.
