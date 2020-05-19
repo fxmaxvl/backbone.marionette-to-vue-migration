@@ -91,3 +91,7 @@ export default YourAwesomeVueComponent = ReadyToUseWrapper(YourAwesomeVueCompone
 And after it, You can use `wrapped-your-awesome-component.js` as ordinary Marionette.LayoutView component.
 In case, when you need to handle some events from child's vue component, you should instantiate YourAwesomeVueComponent
 with extra option `hoistEvents: string[]`, that should consist of events you want to hoist from child to parent.
+
+#### TODO
+- examples
+- add more wrappers for Backbone Views
