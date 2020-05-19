@@ -2,8 +2,9 @@
 
 The creation of this approach was inspired by Martin Fowler and his article: [StranglerFigApplication](https://martinfowler.com/bliki/StranglerFigApplication.html)
 
-If you have a component-based marionette application it is easy to migrate it to vue.
-Only to things you need:
+If you have a component-based marionette application it is easy to organize migration to vue.
+
+Only two things you need:
  - `MnToVue.vue` - wrapper for marionette-based components, that allows you to use it as vue components
  - `VueToMn.js` - wrapper for vue components, that allows you to write new vue components, and attach it to old
  marionette components (if it needed)
